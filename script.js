@@ -7,7 +7,7 @@ function comparison () {
   userInput = document.getElementById('input').value
   userInput = parseInt(userInput)
 
-// Check if userInput is less than 0
+  // Check if userInput is less than 0
   if (userInput < 0) {
     document.getElementById('answer').innerHTML = 'Negative'
   } else {
